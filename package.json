@@ -1,16 +1,16 @@
 {
-  "name": "bitandbang",
-  "version": "3.0.1",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "codecon-business-card",
+  "version": "1.0.0",
+  "description": "Codecon Business Card (codecon.dev)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "codecon": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/codecon-dev/business-card.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://codecon.dev/",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -23,9 +23,10 @@
     "npm card",
     "npx",
     "npx card",
-    "business card"
+    "business card",
+    "codecon"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Caio Fuzatto <@itsmicaio> (https://caiofuzatto.com.br)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -35,9 +36,6 @@
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
   },
   "dependencies": {}
 }
