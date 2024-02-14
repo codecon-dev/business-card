@@ -26,7 +26,7 @@ const data = {
   date: chalk.white('06 e 07 de setembro'),
   address: chalk.white('Expoville - Joinville, SC'),
   subscribe: chalk.white('Inscreva-se em:'),
-  link: chalk.underline.white('https://eventos.codecon.dev/codecon-summit-24/'),
+  link: chalk.underline.white('https://codecon.dev/summit'),
 }
 
 // Actual strings we're going to output
